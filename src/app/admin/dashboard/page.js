@@ -79,6 +79,13 @@ export default function Dashboard() {
             <h3 className="font-bold text-[#115656] text-lg">Categorias</h3>
             <p className="text-gray-600 text-sm">Administrar categorias del catalogo.</p>
           </Link>
+          <Link href="/admin/configuracion" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col gap-3">
+            <div className="bg-gray-500 w-12 h-12 rounded-lg flex items-center justify-center">
+              <Settings size={24} className="text-white" />
+            </div>
+            <h3 className="font-bold text-[#115656] text-lg">Configuracion</h3>
+            <p className="text-gray-600 text-sm">Cambiar telefono, correo y textos del sitio.</p>
+          </Link>
         </div>
 
         {/* Links rapidos */}
